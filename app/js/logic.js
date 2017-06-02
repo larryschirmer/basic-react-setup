@@ -28,7 +28,7 @@ class Toggle extends React.Component {
 
 const element = (
 	<div>
-		<h1>Hello, World!</h1>
+		<h1 id="heading">Hello, World!</h1>
 		<h2>It is {new Date().toLocaleTimeString()}.</h2>
 	</div>
 );
@@ -36,7 +36,7 @@ const element = (
 function tick() {
 	const element = (
 		<div>
-			<h1>Hello, World!</h1>
+			<h1 id="heading">Hello, World!</h1>
 			<h2>It is {new Date().toLocaleTimeString()}.</h2>
 		</div>
 	);

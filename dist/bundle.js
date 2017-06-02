@@ -9591,7 +9591,7 @@ var element = _react2.default.createElement(
 	null,
 	_react2.default.createElement(
 		'h1',
-		null,
+		{ id: 'heading' },
 		'Hello, World!'
 	),
 	_react2.default.createElement(
@@ -9609,7 +9609,7 @@ function tick() {
 		null,
 		_react2.default.createElement(
 			'h1',
-			null,
+			{ id: 'heading' },
 			'Hello, World!'
 		),
 		_react2.default.createElement(
@@ -9694,7 +9694,6 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 __webpack_require__(83);
-
 __webpack_require__(82);
 
 /***/ }),
